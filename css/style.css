@@ -288,8 +288,9 @@ form .row {
 }
 
 .width-100 {
-	width: 100%;
+	width: 65px;
 }
+
 
 header .navbar.plain li.active a {
 	color: #1ABC9C;
