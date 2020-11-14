@@ -1936,5 +1936,14 @@ p.contact_success_box{
 		height:56px;
 		margin:0;
 	}
+
+	.intro3 {
+		padding: 150px 0 !important;
+	}
+	.btn-margin {
+		display: inline-block;
+		margin-right: 0px !important;
+	}
+
 	
 }

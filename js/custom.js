@@ -72,6 +72,10 @@ $(window).load(function(){
 		var target_offset = $("#"+trgt).offset();
 		var target_top = target_offset.top;
 		
+		$( '#navbar-collapse-02 a' ).click( function() {
+			$( '#navbar-collapse-02' ).collapse('hide');
+		});
+
 		$('html,body').animate({scrollTop:target_top -69}, 1000);
 			return false;
 		
