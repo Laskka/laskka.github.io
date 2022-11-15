@@ -2,7 +2,7 @@ function Alerting(text)
 {
 	const event = new CustomEvent('GameComplite', { value: 0 });
 	event.value = text;
-	document.dispatchEvent(event);
+	document.body.dispatchEvent(event);
 }
 
 
