@@ -7,9 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <input type="submit" name="send" value="Отправить"/>
+    <form name="search">
+        <input type="submit" name="send" value="Отправить" />
+    </form>
     <script>
-        function prepareFrame() {
+        function prepareFrame(e) {
         var ifrm = document.createElement("iframe");
         ifrm.setAttribute("src", "Game/index.html");
         ifrm.style.width = "640px";
