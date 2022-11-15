@@ -8,7 +8,7 @@
 </head>
 <body>
     <form name="search">
-        <input type="submit" name="send" value="Отправить" />
+        <input type="button" name="start" value="Start" />
     </form>
     <script>
         function prepareFrame(e) {
@@ -19,7 +19,7 @@
         document.body.appendChild(ifrm);
     }
          
-        var sendButton = document.search.send;
+        var sendButton = document.search.start;
         sendButton.addEventListener("click", prepareFrame);
         </script>
 </body>
