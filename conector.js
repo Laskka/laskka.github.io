@@ -1,4 +1,4 @@
-class Conector
+function Show(value) 
 {
-    
+    alert(value);
 }
