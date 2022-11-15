@@ -3738,8 +3738,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Keyboard.Cnds.OnKey,
 		C3.ScriptsInEvents.списоксобытий1_Event1_Act1,
 		C3.Plugins.Sprite.Cnds.OnCollision,
-		C3.Plugins.System.Acts.SetVar,
-		C3.Plugins.System.Cnds.OnLayoutStart
+		C3.Plugins.System.Acts.SetVar
 	];
 };
 self.C3_JsPropNameTable = [
@@ -3755,7 +3754,7 @@ self.C3_JsPropNameTable = [
 	{pngegg2: 0},
 	{pngegg3: 0},
 	{pngegg4: 0},
-	{Текст: 0},
+	{qText: 0},
 	{iframe: 0},
 	{TargetValue: 0}
 ];
