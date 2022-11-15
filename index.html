@@ -18,7 +18,7 @@
         ifrm.style.width = "640px";
         ifrm.style.height = "480px";
         document.body.appendChild(ifrm);
-        ifrm.contentWindow.document.addEventListener('GameComplite', function(e){console.log(e)});
+        ifrm.contentDocument.addEventListener('GameComplite', function(e){console.log(e)});
     }         
         var sendButton = document.search.start;
         sendButton.addEventListener("click", prepareFrame);
